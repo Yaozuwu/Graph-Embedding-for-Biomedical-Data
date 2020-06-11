@@ -1,5 +1,6 @@
 # A Survey of Recent Development and Trends of Graph Embedding for Biomedical Data
 ## Introduction
+With the rapid development of biomedical software and hard-ware, a large amount of relational data interlinking genes, proteins, chemical components, drugs, diseases and symptoms has been collected for modern biomedical research. Many graph-based learning methods have been proposed to analyzing such type of data, giving a deeper insight into the topology and knowledge behind the biomedical data, which greatly benefits to both academic research and industrial application for human healthcare. However, the main diffculty is how to handle high dimensionality and sparsity of the biomedical graphs. Recently, graph embedding methods provide an effective and effcient way to address issues above. It converts graph-based data into a low dimensional vector space where the graph structural properties and knowledge information are well preserved. In this survey, we conduct a literature review of recent development and trends to apply graph embedding methods for biomedical data. We also introduce important applications and tasks in biomedical domain as well as associated public biomedical datasets.
 ## Preliminaries
 ## Taxonomy of Graph Embedding Models
 ### Homogeneous Graph Embedding Models
