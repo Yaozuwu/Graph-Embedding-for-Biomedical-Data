@@ -1,12 +1,24 @@
-# Graph-Embedding-for-Biomedical-Data
+# A Survey of Recent Development and Trends of Graph Embedding for Biomedical Data
+## Introduction
+## Preliminaries
+## Taxonomy of Graph Embedding Models
+### Homogeneous Graph Embedding Models
+#### Matrix factorization based methods
+#### Random walk based methods
+#### Deep learning based methods
+### Heterogeneous Graph Embedding Models
+#### Translational distance methods
+#### Semantic matching methods
+### Dynamic Graph Embedding Models
+#### Probabilistic models
+#### Dynamic graph embedding methods
+## Applications and Tasks in Biomedical Domain
+### Biomedical datasets
+#### Survey about Drug Repurposing Knowledge Graph (DRKG) database
 
 
 
-## Survey about Drug Repurposing Knowledge Graph (DRKG) database
-
-
-
-### Introduction
+##### Introduction
 
 DRKG is a comprehensive biological knowledge graph which have  97,238 entities( genes, compounds, diseases, biological processes, side effects and symptoms etc) belonging to 13 entity-types, and 5,874,261 triplets belonging to 107 edge-types, as depicted in the figure below. ([github of DRKG](https://github.com/gnn4dr/DRKG))
 
@@ -66,3 +78,7 @@ DRKG consist of six existing databases including DrugBank, Hetionet, GNBR, Strin
 | \(Compound, Side Effect\)         |        \- |      \- |   138,944 |        \- |      \- |     \- |           \- |            138,944 |
 | Total                             | 1,424,790 | 335,369 | 2,250,197 | 1,496,708 | 256,151 | 26,290 |       84,756 |          5,874,261 |
 
+### Applications and Tasks
+#### Pharmaceutical data analysis
+#### Multi-omics data analysis
+#### Clinical data analysis
